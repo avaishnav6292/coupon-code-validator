@@ -1,0 +1,13 @@
+.button {
+    width: 50px;
+    background-color: lightblue;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.button-disabled {
+    background-color: silver;
+    /* filter: grayscale(100%); */
+    cursor: default;
+    pointer-events: none;
+}
